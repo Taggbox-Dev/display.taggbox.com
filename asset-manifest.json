@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.2f3703a5.chunk.css",
-    "main.js": "/static/js/main.235c5358.chunk.js",
-    "main.js.map": "/static/js/main.235c5358.chunk.js.map",
+    "main.js": "/static/js/main.cef71d7d.chunk.js",
+    "main.js.map": "/static/js/main.cef71d7d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1fb953f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.1fb953f6.js.map",
     "static/css/2.0063d13a.chunk.css": "/static/css/2.0063d13a.chunk.css",
-    "static/js/2.712df050.chunk.js": "/static/js/2.712df050.chunk.js",
-    "static/js/2.712df050.chunk.js.map": "/static/js/2.712df050.chunk.js.map",
+    "static/js/2.5a37f804.chunk.js": "/static/js/2.5a37f804.chunk.js",
+    "static/js/2.5a37f804.chunk.js.map": "/static/js/2.5a37f804.chunk.js.map",
     "static/js/3.0199c6b3.chunk.js": "/static/js/3.0199c6b3.chunk.js",
     "static/js/3.0199c6b3.chunk.js.map": "/static/js/3.0199c6b3.chunk.js.map",
     "static/js/4.ebf112fd.chunk.js": "/static/js/4.ebf112fd.chunk.js",
     "static/js/4.ebf112fd.chunk.js.map": "/static/js/4.ebf112fd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2bab495b26e8f3b9a00b5738352979c3.js": "/precache-manifest.2bab495b26e8f3b9a00b5738352979c3.js",
+    "precache-manifest.b9001d73b498841ed0114f4bb272203a.js": "/precache-manifest.b9001d73b498841ed0114f4bb272203a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0063d13a.chunk.css.map": "/static/css/2.0063d13a.chunk.css.map",
     "static/css/main.2f3703a5.chunk.css.map": "/static/css/main.2f3703a5.chunk.css.map",
-    "static/js/2.712df050.chunk.js.LICENSE.txt": "/static/js/2.712df050.chunk.js.LICENSE.txt",
-    "static/js/main.235c5358.chunk.js.LICENSE.txt": "/static/js/main.235c5358.chunk.js.LICENSE.txt",
+    "static/js/2.5a37f804.chunk.js.LICENSE.txt": "/static/js/2.5a37f804.chunk.js.LICENSE.txt",
+    "static/js/main.cef71d7d.chunk.js.LICENSE.txt": "/static/js/main.cef71d7d.chunk.js.LICENSE.txt",
     "static/media/users.css": "/static/media/OpenSans-Regular.629a55a7.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.1fb953f6.js",
     "static/css/2.0063d13a.chunk.css",
-    "static/js/2.712df050.chunk.js",
+    "static/js/2.5a37f804.chunk.js",
     "static/css/main.2f3703a5.chunk.css",
-    "static/js/main.235c5358.chunk.js"
+    "static/js/main.cef71d7d.chunk.js"
   ]
 }
