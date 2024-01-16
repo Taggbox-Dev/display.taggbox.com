@@ -83,11 +83,11 @@
 }
 @font-face {
     font-family: 'TaggboxSocialFonts';
-    src:  url('https://cloud.taggbox.com/widget/themes/media/web-fonts/TaggboxIcon.eot?jkob7x');
-    src:  url('https://cloud.taggbox.com/widget/themes/media/web-fonts/TaggboxIcon.eot?jkob7x#iefix') format('embedded-opentype'),
-        url('https://cloud.taggbox.com/widget/themes/media/web-fonts/TaggboxIcon.ttf?jkob7x') format('truetype'),
-        url('https://cloud.taggbox.com/widget/themes/media/web-fonts/TaggboxIcon.woff?jkob7x') format('woff'),
-        url('https://cloud.taggbox.com/widget/themes/media/web-fonts/TaggboxIcon.svg?jkob7x#TaggboxSocialFonts') format('svg');
+    src:  url('https://cloud.tagbox.com/app/theme/widget/media/web-fonts/TaggboxIcon.eot?jkob7x');
+    src:  url('https://cloud.tagbox.com/app/theme/widget/media/web-fonts/TaggboxIcon.eot?jkob7x#iefix') format('embedded-opentype'),
+        url('https://cloud.tagbox.com/app/theme/widget/media/web-fonts/TaggboxIcon.ttf?jkob7x') format('truetype'),
+        url('https://cloud.tagbox.com/app/theme/widget/media/web-fonts/TaggboxIcon.woff?jkob7x') format('woff'),
+        url('https://cloud.tagbox.com/app/theme/widget/media/web-fonts/TaggboxIcon.svg?jkob7x#TaggboxSocialFonts') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
