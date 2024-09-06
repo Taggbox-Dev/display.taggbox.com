@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://display.taggbox.com/ugcsuite/static/css/main.f8798621.chunk.css",
+    "main.js": "https://display.taggbox.com/ugcsuite/static/js/main.8b1a3214.chunk.js",
+    "runtime-main.js": "https://display.taggbox.com/ugcsuite/static/js/runtime-main.0ba53019.js",
+    "static/css/2.c1d165e6.chunk.css": "https://display.taggbox.com/ugcsuite/static/css/2.c1d165e6.chunk.css",
+    "static/js/2.3493ece4.chunk.js": "https://display.taggbox.com/ugcsuite/static/js/2.3493ece4.chunk.js",
+    "static/js/3.42fdb9c0.chunk.js": "https://display.taggbox.com/ugcsuite/static/js/3.42fdb9c0.chunk.js",
+    "static/js/4.ef02be2c.chunk.js": "https://display.taggbox.com/ugcsuite/static/js/4.ef02be2c.chunk.js",
+    "index.html": "https://display.taggbox.com/ugcsuite/index.html",
+    "precache-manifest.1c34727a5dd5e1aa49704a856dd8bfcf.js": "https://display.taggbox.com/ugcsuite/precache-manifest.1c34727a5dd5e1aa49704a856dd8bfcf.js",
+    "service-worker.js": "https://display.taggbox.com/ugcsuite/service-worker.js",
+    "static/js/2.3493ece4.chunk.js.LICENSE.txt": "https://display.taggbox.com/ugcsuite/static/js/2.3493ece4.chunk.js.LICENSE.txt",
+    "static/js/main.8b1a3214.chunk.js.LICENSE.txt": "https://display.taggbox.com/ugcsuite/static/js/main.8b1a3214.chunk.js.LICENSE.txt",
+    "static/media/users.css": "https://display.taggbox.com/ugcsuite/static/media/OpenSans-Regular.629a55a7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ba53019.js",
+    "static/css/2.c1d165e6.chunk.css",
+    "static/js/2.3493ece4.chunk.js",
+    "static/css/main.f8798621.chunk.css",
+    "static/js/main.8b1a3214.chunk.js"
+  ]
+}

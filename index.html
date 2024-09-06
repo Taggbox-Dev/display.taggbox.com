@@ -12,9 +12,9 @@
     <link rel="preconnect" href="https://cloud.taggbox.com" />
     <link rel="preconnect" href="https://api.taggbox.com" />
     <link rel="preconnect" href="https://cdn.taggbox.com" />
-    <link rel="stylesheet" href="https://app.taggbox.com/assets/css/font-awesome@0.6.css?var=1">
+    <!-- <link rel="stylesheet" href="https://app.taggbox.com/assets/css/font-awesome@0.6.css?var=1">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&amp;display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
     <style>
         body {
             font-family: Inter, sans-serif;
@@ -28,14 +28,52 @@
     <link rel="preconnect" href="https://cdn.taggbox.com" defer="defer" />
     <title>Live Socialwall</title>
     <script>!function (e, t, a, n, g) { e[n] = e[n] || [], e[n].push({ "gtm.start": (new Date).getTime(), event: "gtm.js" }); var m = t.getElementsByTagName(a)[0], r = t.createElement(a); r.async = !0, r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-PMS8SMDX", m.parentNode.insertBefore(r, m) }(window, document, "script", "dataLayer")</script>
-    <script defer="defer" src="https://display.taggbox.com/static/js/main.f60d0231.js"></script>
-    <link href="https://display.taggbox.com/static/css/main.cd96959a.css" rel="stylesheet">
+    <!-- <script defer="defer" src="https://display.taggbox.com/static/js/main.f60d0231.js"></script>
+    <link href="https://display.taggbox.com/static/css/main.cd96959a.css" rel="stylesheet"> -->
 </head>
 
 <body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMS8SMDX" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript><noscript>You need to enable JavaScript to run
         this app.</noscript>
     <div id="taggbox_main"></div>
+
+    <script>
+        const url = window.location.href;
+        function cssAdd(url) {
+            const cssLink = document.createElement("link");
+            cssLink.rel = "stylesheet";
+            cssLink.href = url; // replace with actual CSS URL
+            document.head.appendChild(cssLink);
+        }
+        function jsAdd(url) {
+            const scriptadd = document.createElement("script");
+            scriptadd.src = url; // replace with actual JS URL
+            scriptadd.defer = true; 
+            document.body.appendChild(scriptadd); // Alternatively, append to document.head
+        }
+
+        if (url.includes("/0")) {
+            const htmlTag = document.documentElement;
+            htmlTag.classList.add("taggbox-display-root");
+            const newDiv = document.createElement("div");
+            newDiv.id = "root"; 
+            document.body.appendChild(newDiv);
+
+            cssAdd("https://display.taggbox.com/ugcsuite/static/css/2.c1d165e6.chunk.css")
+            cssAdd("https://display.taggbox.com/ugcsuite/static/css/main.f8798621.chunk.css")
+
+
+            jsAdd("https://display.taggbox.com/ugcsuite/static/js/2.3493ece4.chunk.js")
+            jsAdd("https://display.taggbox.com/ugcsuite/static/js/main.8b1a3214.chunk.js")
+            
+        } else {
+            cssAdd("https://app.taggbox.com/assets/css/font-awesome@0.6.css?var=1")
+            cssAdd("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap")
+            jsAdd("https://display.taggbox.com/static/js/main.f60d0231.js")
+            cssAdd("https://display.taggbox.com/static/css/main.cd96959a.css")
+            
+        }
+    </script>
 </body>
 
 </html>
