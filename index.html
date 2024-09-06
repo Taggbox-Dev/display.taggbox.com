@@ -53,11 +53,12 @@
         }
 
         if (url.includes("/0")) {
-            const htmlTag = document.documentElement;
-            htmlTag.classList.add("taggbox-display-root");
             const newDiv = document.createElement("div");
             newDiv.id = "root"; 
             document.body.appendChild(newDiv);
+            const htmlTag = document.documentElement;
+            htmlTag.classList.add("taggbox-display-root");
+          
 
             cssAdd("https://display.taggbox.com/ugcsuite/static/css/2.c1d165e6.chunk.css")
             cssAdd("https://display.taggbox.com/ugcsuite/static/css/main.f8798621.chunk.css")
